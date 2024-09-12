@@ -9,8 +9,7 @@
 **Course Name:** Datanettverk og skytjenester  
 **Study Program:** Bachelor i Dataingeniørfag  
 **Submission Deadline:** 21.05.2024
-
-## **Grade:** A
+### **Grade:** A
 
 ## Overview
 
