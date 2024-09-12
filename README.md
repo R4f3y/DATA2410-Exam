@@ -1,6 +1,8 @@
 # Reliable Transport Protocol (DRTP)
 
-<img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="Python-Logo" width="400"/>
+<div align="center">
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="Python-Logo" width="600"/>
+</div>
 
 **Candidate Number:** 311  
 **Course Code:** DATA2410  
