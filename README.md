@@ -1,6 +1,6 @@
 # Reliable Transport Protocol (DRTP)
 
-![Python-Logo](https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp)
+![Python-Logo](https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png)
 
 **Candidate Number:** 311  
 **Course Code:** DATA2410  
