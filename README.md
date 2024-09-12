@@ -25,7 +25,7 @@ The DRTP application includes client and server components, which work together 
 
 ## Implementation Details
 
-For detailed implementation information, including code and technical descriptions, please refer to the provided PDF document titled `[311_documentation.pdf](311_documentation.pdf)`. The PDF comprehensively explains the code structure, tests, methods used, and the overall protocol design.
+For detailed implementation information, including code and technical descriptions, please refer to the provided PDF document titled [311_documentation.pdf](311_documentation.pdf). The PDF comprehensively explains the code structure, tests, methods used, and the overall protocol design.
 
 ## Getting Started
 
