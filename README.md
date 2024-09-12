@@ -1,6 +1,6 @@
 # Reliable Transport Protocol (DRTP)
 
-<div align="center" style="margin-bottom: 20px;>
+<div align="center">
   <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="Python-Logo" width="500"/>
 </div>
 
