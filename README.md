@@ -1,5 +1,7 @@
 # Reliable Transport Protocol (DRTP)
-![Python-Logo](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg)
+
+![Python-Logo](https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp)
+
 **Candidate Number:** 311  
 **Course Code:** DATA2410  
 **Course Name:** Datanettverk og skytjenester  
