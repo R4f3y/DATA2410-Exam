@@ -1,5 +1,5 @@
 # Reliable Transport Protocol (DRTP)
-
+![Python-Logo](https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg)
 **Candidate Number:** 311  
 **Course Code:** DATA2410  
 **Course Name:** Datanettverk og skytjenester  
@@ -7,8 +7,6 @@
 **Submission Deadline:** 21.05.2024
 
 ## **Grade:** A
-
-![Python-Logo](https://learnersgalaxy.ai/wp-content/uploads/2024/01/Python-Symbol.png)
 
 ## Overview
 
