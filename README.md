@@ -1,6 +1,6 @@
 # Reliable Transport Protocol (DRTP)
 
-**Candidate Number:** 311 
+**Candidate Number:** 311  
 **Course Code:** DATA2410  
 **Course Name:** Datanettverk og skytjenester  
 **Study Program:** Bachelor i Dataingeniørfag  
@@ -12,45 +12,50 @@
 
 ## Overview
 
-The Reliable Transport Protocol (DRTP) is a file transfer application that ensures reliable data transmission over UDP. This project was developed as part of the Exam for DATA2410 class, focusing on data networks and cloud services.
+The Reliable Transport Protocol (DRTP) is a file transfer application designed to ensure reliable data transmission over UDP. Developed as part of the DATA2410 course on data networks and cloud services, this project features a client-server model that guarantees accurate file transfers through advanced networking techniques.
 
-The DRTP application includes client and server components, which work together to reliably transfer files. The design and functionality were guided by theoretical concepts covered in lectures and tested using Mininet, a network emulator.
+The DRTP application includes both client and server components that work in unison to transfer files reliably. The design is based on theoretical concepts from lectures and has been tested using Mininet, a network emulator.
 
 ### Key Features
 
-- **UDP Socket Communication:** Utilizes UDP sockets to handle file transfers.
-- **Sliding Window Mechanism:** Implements a sliding window protocol to manage data flow and ensure reliability.
-- **Three-Way Handshake:** Establishes a connection between the client and server using a three-way handshake.
-- **Connection Teardown:** Properly closes the connection after file transfer is complete.
-- **Go-Back-N Protocol:** Ensures reliability through retransmission of lost packets and acknowledgement of received packets.
+- **UDP Socket Communication**: Manages file transfers using UDP sockets.
+- **Sliding Window Mechanism**: Implements a sliding window protocol to control data flow and ensure reliability.
+- **Three-Way Handshake**: Establishes a reliable connection between client and server.
+- **Connection Teardown**: Properly closes the connection after file transfer completion.
+- **Go-Back-N Protocol**: Ensures reliability through packet retransmission and acknowledgment.
 
 ## Implementation Details
 
-For detailed implementation information, including code and technical descriptions, please refer to the provided PDF document titled [311_documentation.pdf](311_documentation.pdf). The PDF comprehensively explains the code structure, tests, methods used, and the overall protocol design.
+For detailed implementation information, including code and technical descriptions, please refer to the provided PDF document titled [311_documentation.pdf](311_documentation.pdf). This document covers the code structure, testing methodologies, and overall protocol design.
 
 ## Getting Started
 
-To use the DRTP application, follow these steps:
+To use the DRTP application, follow these instructions:
 
-Server:
+**For the Server:**
+```bash
 python application.py -s -i <ip> -p <port> -d <discard_sequence_number>
+```
 
-Client:
+**For the Client:**
+```bash
 python application.py -c -i <ip> -p <port> -f <file_path> -w <window_size>
+```
 
-They must be on the same IP and port
+Ensure that the IP address and port number are the same for both client and server.
 
-How to test Application.py:
-- **Install Ubuntu inside Oracle VM VirtualBox**
-- **Install Mininet, Xterm, and Ubuntu Utils**
-- **Add a shared folder between Host OS and Ubuntu OS where you have your py file**
-- **Run this folder in Ubuntu using sudo mn(--custom for custom topo file)**
-- **Use Xterm to test separate nodes on how they react to your application(in this instance client h1 server h2)**
-- **Done**
+### How to Test `application.py`:
 
-For further instructions and usage details, consult the PDF document.
+1. **Install Ubuntu**: Set up Ubuntu inside Oracle VM VirtualBox.
+2. **Install Required Tools**: Install Mininet, Xterm, and Ubuntu utilities.
+3. **Configure Shared Folder**: Create a shared folder between the Host OS and Ubuntu OS for your Python files.
+4. **Run Mininet**: Use `sudo mn --custom <custom_topo_file>` to start Mininet with your custom topology file.
+5. **Test the Application**: Use Xterm to test the interaction between separate nodes (e.g., client on h1 and server on h2).
+
+For additional instructions and detailed usage, consult the [PDF document](311_documentation.pdf).
 
 ## Contact
-For questions or feedback, please contact me on LinkedIn: [https://www.linkedin.com/in/rafey-afzal-21a618290/]
 
-Note: The PDF document provides in-depth technical details of the DRTP implementation and should be referred to for a complete understanding of the protocol and code.
+For any questions or feedback, please reach out to me on [LinkedIn](https://www.linkedin.com/in/rafey-afzal-21a618290/).
+
+Note: The PDF document provides comprehensive technical details of the DRTP implementation and should be referred to for a complete understanding of the protocol and code.
