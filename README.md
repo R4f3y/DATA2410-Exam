@@ -4,7 +4,7 @@
   <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="Python-Logo" width="500"/>
 </div>
 
-## Grade A
+## Grade: A
 **Candidate Number:** 311  
 **Course Code:** DATA2410  
 **Course Name:** Datanettverk og skytjenester  
