@@ -9,7 +9,7 @@
 **Course Name:** Datanettverk og skytjenester  
 **Study Program:** Bachelor i Dataingeniørfag  
 **Submission Deadline:** 21.05.2024
-## Grade: A
+## Grade: A<br>
 ## Overview
 
 The Reliable Transport Protocol (DRTP) is a file transfer application designed to ensure reliable data transmission over UDP. Developed as part of the DATA2410 course on data networks and cloud services, this project features a client-server model that guarantees accurate file transfers through advanced networking techniques.
